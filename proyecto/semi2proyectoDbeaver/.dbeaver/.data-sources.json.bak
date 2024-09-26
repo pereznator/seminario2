@@ -1,0 +1,59 @@
+{
+	"folders": {},
+	"connections": {
+		"microsoft-1919b1378a5-7b06aa46e1bf496d": {
+			"provider": "sqlserver",
+			"driver": "microsoft",
+			"name": "master",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1433",
+				"database": "semi2proyecto",
+				"url": "jdbc:sqlserver://;serverName\u003dlocalhost;databaseName\u003dsemi2proyecto",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "false",
+					"sslTrustServerCertificate": "false"
+				},
+				"auth-model": "sqlserver_database"
+			}
+		},
+		"mysql8-1919b669d96-ff29c7efcc72644": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "semi2proyecto",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "semi2proyecto",
+				"url": "jdbc:mysql://localhost:3306/semi2proyecto",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 9.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {"microsoft-1919b1378a5-7b06aa46e1bf496d":{"modelo":{"dbo":{"@properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202408301746\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"microsoft-1919b1378a5-7b06aa46e1bf496d\"\u003e\u003centity id\u003d\"1\" name\u003d\"DimCategoria\" fq-name\u003d\"modelo.dbo.DimCategoria\" order\u003d\"0\" x\u003d\"299\" y\u003d\"112\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"DimCliente\" fq-name\u003d\"modelo.dbo.DimCliente\" order\u003d\"1\" x\u003d\"960\" y\u003d\"698\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"DimDepartamento\" fq-name\u003d\"modelo.dbo.DimDepartamento\" order\u003d\"2\" x\u003d\"1064\" y\u003d\"462\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"DimProducto\" fq-name\u003d\"modelo.dbo.DimProducto\" order\u003d\"3\" x\u003d\"304\" y\u003d\"242\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"DimProveedor\" fq-name\u003d\"modelo.dbo.DimProveedor\" order\u003d\"4\" x\u003d\"59\" y\u003d\"506\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"DimRegion\" fq-name\u003d\"modelo.dbo.DimRegion\" order\u003d\"5\" x\u003d\"1261\" y\u003d\"481\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"7\" name\u003d\"DimSucursal\" fq-name\u003d\"modelo.dbo.DimSucursal\" order\u003d\"6\" x\u003d\"879\" y\u003d\"455\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"8\" name\u003d\"DimTiempo\" fq-name\u003d\"modelo.dbo.DimTiempo\" order\u003d\"7\" x\u003d\"505\" y\u003d\"709\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"9\" name\u003d\"DimVendedor\" fq-name\u003d\"modelo.dbo.DimVendedor\" order\u003d\"8\" x\u003d\"849\" y\u003d\"294\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"10\" name\u003d\"FactCompras\" fq-name\u003d\"modelo.dbo.FactCompras\" order\u003d\"9\" x\u003d\"344\" y\u003d\"475\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"11\" name\u003d\"FactVentas\" fq-name\u003d\"modelo.dbo.FactVentas\" order\u003d\"10\" x\u003d\"578\" y\u003d\"319\"\u003e\u003cpath name\u003d\"dbo\"/\u003e\u003cpath name\u003d\"modelo\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_DimProducto_CategoriaID\" fq-name\u003d\"dbo.DimProducto.FK_DimProducto_CategoriaID\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"4\"/\u003e\u003crelation name\u003d\"FK__FactVenta__Clien__68487DD7\" fq-name\u003d\"dbo.FactVentas.FK__FactVenta__Clien__68487DD7\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"11\"/\u003e\u003crelation name\u003d\"FK__DimSucurs__Depar__5629CD9C\" fq-name\u003d\"dbo.DimSucursal.FK__DimSucurs__Depar__5629CD9C\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"7\"/\u003e\u003crelation name\u003d\"FK__FactCompr__Produ__5CD6CB2B\" fq-name\u003d\"dbo.FactCompras.FK__FactCompr__Produ__5CD6CB2B\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"10\"/\u003e\u003crelation name\u003d\"FK__FactVenta__Produ__6A30C649\" fq-name\u003d\"dbo.FactVentas.FK__FactVenta__Produ__6A30C649\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"11\"/\u003e\u003crelation name\u003d\"FK__FactCompr__Prove__5BE2A6F2\" fq-name\u003d\"dbo.FactCompras.FK__FactCompr__Prove__5BE2A6F2\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"10\"/\u003e\u003crelation name\u003d\"FK__DimDepart__Regio__52593CB8\" fq-name\u003d\"dbo.DimDepartamento.FK__DimDepart__Regio__52593CB8\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"FK__FactCompr__Sucur__5DCAEF64\" fq-name\u003d\"dbo.FactCompras.FK__FactCompr__Sucur__5DCAEF64\" type\u003d\"fk\" pk-ref\u003d\"7\" fk-ref\u003d\"10\"/\u003e\u003crelation name\u003d\"FK__FactVenta__Sucur__6B24EA82\" fq-name\u003d\"dbo.FactVentas.FK__FactVenta__Sucur__6B24EA82\" type\u003d\"fk\" pk-ref\u003d\"7\" fk-ref\u003d\"11\"/\u003e\u003crelation name\u003d\"FK__FactCompr__Tiemp__5EBF139D\" fq-name\u003d\"dbo.FactCompras.FK__FactCompr__Tiemp__5EBF139D\" type\u003d\"fk\" pk-ref\u003d\"8\" fk-ref\u003d\"10\"/\u003e\u003crelation name\u003d\"FK__FactVenta__Tiemp__6C190EBB\" fq-name\u003d\"dbo.FactVentas.FK__FactVenta__Tiemp__6C190EBB\" type\u003d\"fk\" pk-ref\u003d\"8\" fk-ref\u003d\"11\"/\u003e\u003crelation name\u003d\"FK__FactVenta__Vende__693CA210\" fq-name\u003d\"dbo.FactVentas.FK__FactVenta__Vende__693CA210\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"11\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

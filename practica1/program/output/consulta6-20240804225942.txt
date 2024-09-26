@@ -1,0 +1,12 @@
+flightStatus    cuenta     
+--------------- -----------
+Delayed
+              32831
+";Cancelled
+              2
+Cancelled
+            32939
+On Time
+              32845
+
+(4 rows affected)

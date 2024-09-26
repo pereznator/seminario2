@@ -1,0 +1,22 @@
+DimPassengerCount
+-----------------
+            98617
+
+(1 rows affected)
+DimAirportCount
+---------------
+           9061
+
+(1 rows affected)
+DimFlightCount
+--------------
+         98617
+
+(1 rows affected)
+FactFlightCount
+---------------
+          98617
+
+(1 rows affected)
+Msg 208, Level 16, State 1, Server DESKTOP-5MM771I, Line 5
+Invalid object name '#Temporal'.

@@ -1,0 +1,9 @@
+Gender Age         People     
+------ ----------- -----------
+Female          39         616
+Male            89         615
+Male            46         604
+Male            24         597
+Male            29         590
+
+(5 rows affected)

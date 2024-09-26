@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.semi2proyecto.root"
+  DTS:DTSID="{7CC3ADED-0BEC-4DCD-BD8D-B11A9C7063FA}"
+  DTS:CreationName="ADO.NET:MySql.Data.MySqlClient.MySqlConnection, MySql.Data, Version=9.0.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="server=localhost;user id=root;password2=admin;database=semi2proyecto;">
+      <DTS:Password
+        DTS:Name="password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApcJCHjOCdkuLhu+I0uhlNgAAAAACAAAAAAAQZgAAAAEAACAAAACma8cYrFqEd40mUyCof21diyM8HtWafYUI7fkaahtzpgAAAAAOgAAAAAIAACAAAADoSKX98LVC4MuRx5X+em5Ip608rswxgF3Noozz6hmmIIAAAAAIi2uYdpx5pcL1AxmGTUNdMhyMfz286fz6ut/51jHlPFu/LrJMSUlIhM26QNxtJYAUIqmXqtDFKgh34eafy5DqdWzBUtXlPdEIr2nqdrdLXLncztvsByQyWSG3FLMb8db3N56Vcbwgk5fAItcT0qbg5/u3tLYHjUJ7ISBAigvbdUAAAAAB3D4832mWGW4dFpdXyavrDPVhkZG7CXESOIt+QxYo2FS0avbXw+GePkhTVpOYcDGHtty8TutgXjGvjB+ZC2JV</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

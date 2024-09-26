@@ -1,0 +1,9 @@
+airportName                                                                                                                                                                                              Passengers 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------
+San Pedro Airport                                                                                                                                                                                                 43
+Santa Maria Airport                                                                                                                                                                                               38
+BÃƒÂ¶blingen Flugfeld                                                                                                                                                                                             36
+Santa Ana Airport                                                                                                                                                                                                 35
+Maliana airport                                                                                                                                                                                                   32
+
+(5 rows affected)
